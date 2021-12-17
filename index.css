@@ -20,8 +20,10 @@
         background-color: #fae5df;
     }
     
+    
+    
     section {
-        padding: 100px 0;
+        padding: 50px 0;
         /* background:linear-gradient(251.14deg, #E0D1A4 0%, #B9D6D5 40.64%, #B9B4F1 60.73%, #ACC8F0 78.96%, #9696D7 100%) */
     }
     
@@ -98,10 +100,6 @@
         align-items: center;
     }
     
-    .first {
-        height: 900px;
-    }
-    
     .img {
         position: relative;
         width: 500px;
@@ -141,7 +139,8 @@
 } */
     
     .box:hover {
-        transform: scale(120%)
+        transform: scale(120%);
+        transition: ease-in-out 0.5s;
     }
     
     .subtext {
@@ -298,7 +297,8 @@
     }
     
     .box1:hover {
-        transform: scale(90%);
+        transform: scale(110%);
+        transition: ease-in-out 0.5s;
     }
     /* Next & previous buttons */
     
@@ -400,30 +400,109 @@
     .team {
         margin-bottom: 30px;
     }
-    /* contact-div-end */
-    /* Fading animation */
-    /* .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-} */
-    /* @-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-} */
-    /* .team {
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-    font-weight: 700;
-    margin: 30px;
-} */
+    /* Changes made by Shubham Pawar */
+    
+    .first-container {
+        max-width: 1300px;
+        padding: 0 80px;
+        margin: auto;
+    }
+    
+    .first-container-set-data {
+        width: 100%;
+        align-items: center;
+        height: 100%;
+    }
+    
+    .first-container-set {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 1000px;
+        height: 400px;
+        padding: 100px;
+    }
+    
+    .img {
+        position: relative;
+        width: 500px;
+        height: 828.29px;
+        left: 72px;
+        top: 325px;
+    }
+    
+    .data {
+        position: relative;
+        width: 492px;
+        height: 180px;
+        left: 5px;
+        top: 100px;
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 64px;
+        line-height: 88px;
+        /* or 137% */
+        color: #141850;
+    }
+    /* Data CSS style for first-container-set */
+    
+    .first-text {
+        position: relative;
+        width: 492px;
+        height: 180px;
+        left: 5px;
+        top: 100px;
+        font-family: Noto Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 64px;
+        line-height: 88px;
+        /* or 137% */
+        color: #141850;
+    }
+    
+    .first-subtext {
+        position: relative;
+        width: 372px;
+        height: 96px;
+        left: 5px;
+        top: 100px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 32px;
+        color: #141850;
+    }
+    /* Image CSS style for first-container-set */
+    
+    .first-img {
+        position: relative;
+        /* width: 416px;
+        height: 456px; */
+        left: 72px;
+        top: 83px;
+    }
+    /* Ended */
+    /* footer section styling*/
+    
+    footer {
+        background: #fae5df;
+        padding: 15px 23px;
+        color: #141850;
+        text-align: center;
+        position: relative;
+    }
+    
+    footer span a {
+        color: rgb(126, 0, 126);
+        text-decoration: none;
+    }
+    
+    footer span a:hover {
+        text-decoration: underline;
+    }
     
     @media (max-width: 947px) and (min-width: 769px) {
         body {
