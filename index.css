@@ -278,7 +278,9 @@
         flex-wrap: wrap;
     }
     /* slider */
-    
+    .judges{
+        padding: 100px;
+    }
     .mySlides {
         display: none
     }
@@ -286,6 +288,13 @@
     img {
         vertical-align: middle;
         border-radius: 44px;
+    }
+    .jud{
+        border-radius: 50%;
+    }
+    .jud:hover{
+        transition: ease-in-out 0.8s;
+        border-radius: 0px;
     }
     /* Slideshow container */
     
@@ -296,10 +305,10 @@
         border: radius 44px;
     }
     
-    .box1:hover {
+    /* .box1:hover {
         transform: scale(110%);
         transition: ease-in-out 0.5s;
-    }
+    } */
     /* Next & previous buttons */
     
     .prev,
