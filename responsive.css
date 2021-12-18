@@ -145,7 +145,7 @@
     grid-template-columns: auto auto auto;
     padding: 10px;
   }
-
+  /* Changes for teams */
   .slideshow-container {
     width: 1000px;
     position: relative;
@@ -156,6 +156,22 @@
     position: relative;
     margin: auto;
     left: 30%;
+  }
+  /* Changes for Contact */
+  .container{
+    position:relative;
+    width:800px;
+    left:150px;
+    height:200px;
+  }
+  .phone{
+    justify-content: end;
+    width: 100%;
+  }
+  /* Changes for Footer */
+  footer{
+    left:411px;
+    width:495px;
   }
 }
 /* set everything in center  */
@@ -253,6 +269,7 @@
     position:relative;
     left:100%;
   }
+  /* Increase width of contact container rest is perfect :) */
   
 /* Changes for contact container */
 
@@ -267,15 +284,11 @@
   width: 100%;}
 /* Changes for Footer */
 footer{
- color:blue;
   left:411px;
   width:495px;
 }
 
-/*  
-abe but wo inherit karega na?
-smja nhi
-call; */
+
 }
 @media (max-width: 500px) and (min-width: 416px) {
   .menu-btn {
@@ -391,6 +404,11 @@ call; */
     padding: 10px;
   }
 }
+
+/* Remaining for 
+Team
+Contact
+Footer */
 @media (max-width: 721px) and (min-width: 691px) {
   .menu-btn {
     display: block;
@@ -449,6 +467,10 @@ call; */
   }
 }
 
+/* Remaining for 
+Team
+Contact
+Footer */
 /* Responsive styling for Ipad */
 @media (max-width: 769px) and (min-width: 722px) {
   .menu-btn {
@@ -513,7 +535,10 @@ call; */
     padding: 10px;
   }
 }
-
+/* Remaining for 
+Team
+Contact
+Footer */
 @media (max-width: 991px) {
   .menu-btn {
     display: block;
@@ -564,6 +589,11 @@ call; */
     flex-direction: column;
   }
 }
+
+/* Remaining for 
+Team
+Contact
+Footer */
 /* Responsive for Ipad pro */
 @media (max-width: 1025px) and (min-width: 946px) {
   .menu-btn {
