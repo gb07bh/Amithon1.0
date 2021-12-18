@@ -8,9 +8,13 @@ document.addEventListener("scroll", function () {
   }
 });
 
-function disc() {
-  window.open("https://www.w3schools.com/", "_blank");
-}
+
+
+ // toggle menu/navbar script
+ $('.menu-btn').click(function(){
+  $('.navbar .menu').toggleClass("active");
+  $('.menu-btn i').toggleClass("active");
+});
 // Slider
 
 var slideIndex = 1;
@@ -38,10 +42,10 @@ function showSlides(n) {
     slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
+    dots[i].className = dots[i].className.replace(" active1", "");
   }
   slides[slideIndex - 1].style.display = "block";
-  dots[slideIndex - 1].className += " active";
+  dots[slideIndex - 1].className += " active1";
 }
 
 const box1s = document.getElementsByClassName("cnt").length;

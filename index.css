@@ -362,7 +362,7 @@
         transition: background-color 0.6s ease;
     }
     
-    .active,
+    .active1,
     .dot:hover {
         background-color: #717171;
     }
@@ -471,8 +471,8 @@
         position: relative;
         width: 492px;
         height: 180px;
-        left: 5px;
-        top: 100px;
+        left: 0px;
+        top: 60px;
         font-family: Noto Sans;
         font-style: normal;
         font-weight: normal;
@@ -481,13 +481,13 @@
         /* or 137% */
         color: #141850;
     }
-    
+
     .first-subtext {
         position: relative;
-        width: 372px;
+        width: 700px;
         height: 96px;
-        left: 5px;
-        top: 100px;
+        left: 0px;
+        top: 30px;
         font-family: Montserrat;
         font-style: normal;
         font-weight: normal;
@@ -496,13 +496,13 @@
         color: #141850;
     }
     /* Image CSS style for first-container-set */
-    
+
     .first-img {
         position: relative;
         /* width: 416px;
         height: 456px; */
         left: 72px;
-        top: 83px;
+        top: 180px;
     }
     /* Ended */
     /* footer section styling*/
@@ -524,76 +524,3 @@
         text-decoration: underline;
     }
     
-    @media (max-width: 947px) and (min-width: 769px) {
-        body {
-            background-image: url("bg1.jpg");
-            background-image: linear-gradient();
-        }
-        .menu-btn {
-            display: block;
-            z-index: 999;
-        }
-        .menu-btn::before {
-            height: 0px;
-        }
-        .menu-btn i.active:before {
-            content: "\f00d";
-        }
-        .navbar .menu {
-            position: fixed;
-            height: 100vh;
-            width: 100%;
-            left: -100%;
-            top: 0;
-            background: #111;
-            text-align: center;
-            padding-top: 80px;
-            transition: all 0.3s ease;
-        }
-        .navbar .menu.active {
-            left: 0;
-        }
-        .navbar .menu li {
-            display: block;
-        }
-        .navbar .menu li a {
-            display: inline-block;
-            margin: 20px 0;
-            font-size: 25px;
-        }
-        .home .home-content .text-2 {
-            font-size: 70px;
-        }
-        .home .home-content .text-3 {
-            font-size: 35px;
-        }
-        .home .home-content a {
-            font-size: 23px;
-            padding: 10px 30px;
-        }
-        .max-width {
-            max-width: 930px;
-        }
-        .contain {
-            flex-direction: column;
-        }
-    }
-
-    /* Responsive styling for Iphone 12,X,6,7,8*/
-@media (max-width: 400px){}
-/* Responsive styling for Iphone 6/7/8 plus */
-@media (max-width: 415px) and (min-width: 400px){}
-@media (max-width: 500px) and (min-width: 416px){}
-@media (max-width: 691px) and (min-width: 500px){}
-@media (max-width: 721px) and (min-width: 691px){}
-/* Responsive styling for Ipad */
-@media (max-width: 769px) and (min-width: 722px){
-
-}
-/* Responsive styling for Ipad */
-@media (max-width: 769px) and (min-width: 722px){}
-@media (max-width: 991px){}
-/* Responsive for Ipad pro */
-@media (max-width: 1025px) and (min-width: 946px){}
-/* Responsive styling for several screens */
-@media (max-width: 1920px) and (min-width: 1320px) {}
