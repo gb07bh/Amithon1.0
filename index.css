@@ -138,7 +138,7 @@
   
 } */
     
-    .box:hover {
+    .box:hover ,.box3:hover{
         transform: scale(120%);
         transition: ease-in-out 0.5s;
     }
@@ -231,9 +231,20 @@
     }
     
     .box {
-        height: 600px;
+        height: 685px;
         width: 270px;
         background-color: #ffffff;
+        margin: 50px;
+        padding: 10px;
+        cursor: default;
+    }
+    .third{
+        padding-top: 240px;
+    }
+    .box3{
+        height: 330px;
+        width: 270px;
+        background-color: rgb(255 255 255);
         margin: 50px;
         padding: 10px;
         cursor: default;
@@ -567,3 +578,22 @@
             flex-direction: column;
         }
     }
+
+    /* Responsive styling for Iphone 12,X,6,7,8*/
+@media (max-width: 400px){}
+/* Responsive styling for Iphone 6/7/8 plus */
+@media (max-width: 415px) and (min-width: 400px){}
+@media (max-width: 500px) and (min-width: 416px){}
+@media (max-width: 691px) and (min-width: 500px){}
+@media (max-width: 721px) and (min-width: 691px){}
+/* Responsive styling for Ipad */
+@media (max-width: 769px) and (min-width: 722px){
+
+}
+/* Responsive styling for Ipad */
+@media (max-width: 769px) and (min-width: 722px){}
+@media (max-width: 991px){}
+/* Responsive for Ipad pro */
+@media (max-width: 1025px) and (min-width: 946px){}
+/* Responsive styling for several screens */
+@media (max-width: 1920px) and (min-width: 1320px) {}
