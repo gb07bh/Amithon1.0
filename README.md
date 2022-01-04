@@ -1,3 +1,3 @@
 # AMITHON-WEBSITE
 
-*http://amithon.live/*
+*https://amithon.live/*
